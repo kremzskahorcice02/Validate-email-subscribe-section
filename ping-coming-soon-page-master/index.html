@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <header>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Kolarova</a>.
+    </p>
+  </header>
+  <main>
+    <div class="wrapper">
+      <img class="wrapper__logo" src="images/logo.svg" alt="Ping logo"/>
+      <p class="wrapper__text-primary">We are launching <span class="wrapper__text-primary-bold">soon!</span></p>
+      <p class="wrapper__text-secondary">Subscribe and get notified</p>
+      <form id="form" class="wrapper__form">
+        <input id="email" class="wrapper__form__input" type="email" placeholder="Your email address..."/>
+        <p id="alert" class="wrapper__form-alert">Please provide a valid email address</p>
+        <button id="btn" class="wrapper__form__btn" type="button">Notify Me</button>
+      </form>
+    </div>
+    <img class="wrapper__img" src="images/illustration-dashboard.png"/>
+    <div class="wrapper wrapper__footer">
+      <div class="wrapper__socials">
+        <img class="wrapper__socials__item wrapper__socials__item-fb" src="images/facebook-f-brands.svg"/>
+        <img class="wrapper__socials__item" src="images/twitter-brands.svg"/>
+        <img class="wrapper__socials__item" src="images/instagram-brands.svg"/>
+      </div>  
+      <p class="wrapper__copyright">&copy; Copyright Ping. All rights reserved.</p>
+    </div>  
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
